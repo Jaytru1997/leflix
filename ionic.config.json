@@ -1,0 +1,7 @@
+{
+  "name": "Leflix",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
