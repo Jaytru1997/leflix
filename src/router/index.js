@@ -8,6 +8,14 @@ const routes = [
     component: LoadingScreen,
   },
   {
+    path: '/start',
+    component: () => import('@/views/StartPage.vue'),
+  },
+  {
+    path: '/auth',
+    component: () => import('@/views/AuthPage.vue'),
+  },
+  {
     path: '/tabs/',
     component: TabsPage,
     children: [
