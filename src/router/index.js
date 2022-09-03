@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import TabsPage from '../views/TabsPage.vue'
+import TabsPage from '../views/TabsPage.vue';
+import LoadingScreen from '../components/LoadingScreen.vue';
 
 const routes = [
   {
     path: '/',
-    redirect: '/tabs/home'
+    component: LoadingScreen,
   },
   {
     path: '/tabs/',
