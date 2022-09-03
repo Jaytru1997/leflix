@@ -12,17 +12,15 @@
           </ion-toolbar>
         </ion-header>
         
-        <!-- <ExploreContainer name="Profile page" /> -->
       </ion-content>
     </ion-page>
   </template>
   
   <script>
   import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-  // import ExploreContainer from '@/components/ExploreContainer.vue';
   
   export default {
-    name: 'Tab4Page',
+    name: 'ProfilePage',
     components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
   };
   </script>
