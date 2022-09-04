@@ -6,7 +6,7 @@
             <h1 class="heading">Welcome to Leflix</h1>
             <p >The best streaming app of the century to make your day great</p>
         </ion-text>
-        <ion-button class="get-started" fill="solid" size="large" expand="block"
+        <ion-button class="get-started ion-text-capitalize" fill="solid" size="large" expand="block"
            href="/auth">Get Started</ion-button
         >
       </ion-grid>
