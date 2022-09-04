@@ -3,7 +3,7 @@
     <ion-content>
       <ion-grid class="container">
         <ion-text color="light" class="ion-text-center text">
-            <h1 class="heading">Welcome to Lemo</h1>
+            <h1 class="heading">Welcome to Leflix</h1>
             <p >The best streaming app of the century to make your day great</p>
         </ion-text>
         <ion-button class="get-started" fill="solid" size="large" expand="block"
